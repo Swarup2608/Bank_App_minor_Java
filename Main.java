@@ -13,12 +13,7 @@ public class Main {
         account1 = new Saving(1000);
         Customer customer1 = new Customer("Swarup","6637",account1);
         main.bank.addCustomer(customer1);
-        Account account2 = new Account();
-        account2 = new Checking(1000);
-        Customer customer2 = new Customer("Anuradha","6637",account2);
-        main.bank.addCustomer(customer2);
         main.viewDetails(customer1);
-        main.viewDetails(customer2);
         main.runMenu();
 
     }
